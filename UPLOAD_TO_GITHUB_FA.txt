@@ -1,0 +1,38 @@
+راهنمای سریع انتشار RouteDMCC در GitHub
+========================================
+
+نام پیشنهادی Repository:
+RouteDMCC
+
+Description پیشنهادی:
+Reproducibility package for sample-level computational routing in robust diffusion adaptive networks, including Gated DMCC experiments, configurations, reference results, and paper-to-artifact mapping.
+
+نکته بسیار مهم پیش از Release نهایی:
+فایل اصلی آزمایش‌ها با نام زیر در آرشیو شما وجود دارد:
+dlms_experiment3_GLM2_3.py
+آن را بدون بازنویسی و بدون تغییر در مسیر زیر قرار دهید:
+src/dlms_experiment3_GLM2_3.py
+
+فرمان‌های Push اولیه:
+---------------------
+git init
+git add .
+git commit -m "Initial RouteDMCC reproducibility package"
+git branch -M main
+git remote add origin https://github.com/<YOUR-ACCOUNT>/RouteDMCC.git
+git push -u origin main
+
+بعد از افزودن کد اصلی، بررسی environment و نهایی شدن Repository:
+----------------------------------------------------------------
+git add .
+git commit -m "Add exact experiment source and frozen submission metadata"
+git push
+
+git tag -a v1.0.0-submission -m "RouteDMCC submission reproducibility snapshot"
+git push origin v1.0.0-submission
+
+آزمایش integrity قبل از tag:
+python tools/verify_reference_hashes.py
+python tools/export_reference_summaries.py
+
+بعد از ساخت GitHub، URL را به ChatGPT بدهید تا لینک دقیق در manuscript و README مربوط به submission قرار گیرد.

@@ -1,0 +1,33 @@
+{
+  "n_nodes": 30,
+  "m_dim": 2,
+  "radius": 0.34,
+  "iters": 2000,
+  "tail": 500,
+  "trials": 20,
+  "mu": 0.05,
+  "noise_std": 0.05,
+  "sigma": 1.0,
+  "impulse_prob": 0.08,
+  "impulse_std": 20.0,
+  "kappa": 0.2,
+  "seed": 55661,
+  "noisy_nodes": [
+    3,
+    14,
+    25
+  ],
+  "noisy_factor": 1.0,
+  "gate_lambda": 0.95,
+  "gate_eta": 1.0,
+  "gate_context_gain": 0.5,
+  "gate_threshold": 1.0,
+  "algorithms": [
+    "atc_lms_CI",
+    "sign_error_atc",
+    "huber_atc",
+    "uniform_dmcc_atc",
+    "gated_dmcc_atc",
+    "gated_huber_atc"
+  ]
+}

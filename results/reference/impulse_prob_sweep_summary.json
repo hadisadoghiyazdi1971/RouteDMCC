@@ -1,0 +1,86 @@
+[
+  {
+    "p_H": 0.01,
+    "atc_lms_msd": 0.0009899352979096505,
+    "uniform_dmcc_msd": 1.2617317229762066e-05,
+    "gated_dmcc_msd": 1.2658343367031886e-05,
+    "huber_msd": 1.1287219027219414e-05,
+    "sign_msd": 0.0009280321267530562,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.0907200000000001,
+    "gated_robust_rate": 0.01008,
+    "empirical_hard_rate": 0.032071666666666665
+  },
+  {
+    "p_H": 0.02,
+    "atc_lms_msd": 0.0019705167713029974,
+    "uniform_dmcc_msd": 1.5201706695273952e-05,
+    "gated_dmcc_msd": 1.5236200297693055e-05,
+    "huber_msd": 1.2792760278075526e-05,
+    "sign_msd": 0.0009266176665500292,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.17919,
+    "gated_robust_rate": 0.01991,
+    "empirical_hard_rate": 0.041598333333333334
+  },
+  {
+    "p_H": 0.05,
+    "atc_lms_msd": 0.004880822651943967,
+    "uniform_dmcc_msd": 2.2924250338378685e-05,
+    "gated_dmcc_msd": 2.294051062401665e-05,
+    "huber_msd": 1.731534883472757e-05,
+    "sign_msd": 0.0009440468465906763,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.45225,
+    "gated_robust_rate": 0.050249999999999996,
+    "empirical_hard_rate": 0.07059916666666667
+  },
+  {
+    "p_H": 0.1,
+    "atc_lms_msd": 0.009749658448849782,
+    "uniform_dmcc_msd": 3.8535677462637735e-05,
+    "gated_dmcc_msd": 3.851684349802728e-05,
+    "huber_msd": 2.565500152321296e-05,
+    "sign_msd": 0.0009679744148119018,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.90354,
+    "gated_robust_rate": 0.1003933333333333,
+    "empirical_hard_rate": 0.1188375
+  },
+  {
+    "p_H": 0.2,
+    "atc_lms_msd": 0.020116368725268164,
+    "uniform_dmcc_msd": 7.12845440146438e-05,
+    "gated_dmcc_msd": 7.119639469546675e-05,
+    "huber_msd": 4.42997384899409e-05,
+    "sign_msd": 0.0010313316637508465,
+    "uniform_cost": 10.0,
+    "gated_cost": 2.80249,
+    "gated_robust_rate": 0.20027666666666666,
+    "empirical_hard_rate": 0.21572916666666667
+  },
+  {
+    "p_H": 0.3,
+    "atc_lms_msd": 0.030851525507923278,
+    "uniform_dmcc_msd": 0.00011060563622694395,
+    "gated_dmcc_msd": 0.00011044265361023341,
+    "huber_msd": 6.777721219901298e-05,
+    "sign_msd": 0.0011280801343083254,
+    "uniform_cost": 10.0,
+    "gated_cost": 3.68506,
+    "gated_robust_rate": 0.29833999999999994,
+    "empirical_hard_rate": 0.3123966666666666
+  },
+  {
+    "p_H": 0.5,
+    "atc_lms_msd": 0.05183602771403858,
+    "uniform_dmcc_msd": 0.00022516436739629408,
+    "gated_dmcc_msd": 0.00022475788171518615,
+    "huber_msd": 0.00013097133269874097,
+    "sign_msd": 0.001393476139025919,
+    "uniform_cost": 10.0,
+    "gated_cost": 5.443989999999999,
+    "gated_robust_rate": 0.49377666666666664,
+    "empirical_hard_rate": 0.5052724999999999
+  }
+]

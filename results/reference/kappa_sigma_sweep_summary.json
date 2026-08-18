@@ -1,0 +1,101 @@
+[
+  {
+    "ratio": 0.02,
+    "kappa": 0.02,
+    "sigma": 1.0,
+    "uniform_msd": 2.4189905274468847e-05,
+    "gated_msd": 2.4189912161838472e-05,
+    "relative_msd_gap": 2.8472081832497285e-07,
+    "uniform_cost": 10.0,
+    "gated_cost": 7.886860000000001,
+    "gated_robust_rate": 0.7652066666666668
+  },
+  {
+    "ratio": 0.05,
+    "kappa": 0.05,
+    "sigma": 1.0,
+    "uniform_msd": 2.4189905274468847e-05,
+    "gated_msd": 2.4190221413803203e-05,
+    "relative_msd_gap": 1.3069060451831335e-05,
+    "uniform_cost": 10.0,
+    "gated_cost": 5.150530000000001,
+    "gated_robust_rate": 0.46116999999999997
+  },
+  {
+    "ratio": 0.1,
+    "kappa": 0.1,
+    "sigma": 1.0,
+    "uniform_msd": 2.4189905274468847e-05,
+    "gated_msd": 2.4193653827728006e-05,
+    "relative_msd_gap": 0.00015496353609599904,
+    "uniform_cost": 10.0,
+    "gated_cost": 2.44954,
+    "gated_robust_rate": 0.16105999999999998
+  },
+  {
+    "ratio": 0.2,
+    "kappa": 0.2,
+    "sigma": 1.0,
+    "uniform_msd": 2.4189905274468847e-05,
+    "gated_msd": 2.4205228516042734e-05,
+    "relative_msd_gap": 0.0006334560387906993,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.4491900000000002,
+    "gated_robust_rate": 0.049909999999999996
+  },
+  {
+    "ratio": 0.5,
+    "kappa": 0.5,
+    "sigma": 1.0,
+    "uniform_msd": 2.4189905274468847e-05,
+    "gated_msd": 2.425738362127928e-05,
+    "relative_msd_gap": 0.002789525053727773,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.4134900000000004,
+    "gated_robust_rate": 0.04594333333333333
+  },
+  {
+    "ratio": 1.0,
+    "kappa": 1.0,
+    "sigma": 1.0,
+    "uniform_msd": 2.4189905274468847e-05,
+    "gated_msd": 2.5804949411675327e-05,
+    "relative_msd_gap": 0.06676521130949088,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.38595,
+    "gated_robust_rate": 0.042883333333333336
+  },
+  {
+    "ratio": 1.5,
+    "kappa": 1.5,
+    "sigma": 1.0,
+    "uniform_msd": 2.4189905274468847e-05,
+    "gated_msd": 3.339791898341886e-05,
+    "relative_msd_gap": 0.3806552197899089,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.3594000000000002,
+    "gated_robust_rate": 0.03993333333333333
+  },
+  {
+    "ratio": 2.0,
+    "kappa": 2.0,
+    "sigma": 1.0,
+    "uniform_msd": 2.4189905274468847e-05,
+    "gated_msd": 5.343286095634811e-05,
+    "relative_msd_gap": 1.2088908720425475,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.33207,
+    "gated_robust_rate": 0.03689666666666667
+  },
+  {
+    "ratio": 3.0,
+    "kappa": 3.0,
+    "sigma": 1.0,
+    "uniform_msd": 2.4189905274468847e-05,
+    "gated_msd": 0.0001369888544778631,
+    "relative_msd_gap": 4.663058739731715,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.28497,
+    "gated_robust_rate": 0.031663333333333335
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "N": 10,
+    "M": 2,
+    "atc_lms_msd": 0.00897323407455298,
+    "uniform_dmcc_msd": 4.050517392155377e-05,
+    "gated_dmcc_msd": 4.050418982772106e-05,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.45648,
+    "gated_robust_rate": 0.05072,
+    "gated_wall_clock_sec": 0.5081456002546474,
+    "uniform_wall_clock_sec": 0.5277445453277323
+  },
+  {
+    "N": 20,
+    "M": 2,
+    "atc_lms_msd": 0.005785532559693187,
+    "uniform_dmcc_msd": 2.8382048433702124e-05,
+    "gated_dmcc_msd": 2.8396510776408217e-05,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.4628249999999998,
+    "gated_robust_rate": 0.051425,
+    "gated_wall_clock_sec": 0.7456420554488432,
+    "uniform_wall_clock_sec": 0.7734039500646759
+  },
+  {
+    "N": 30,
+    "M": 2,
+    "atc_lms_msd": 0.004853798270520319,
+    "uniform_dmcc_msd": 2.3668809621472187e-05,
+    "gated_dmcc_msd": 2.3685367876323013e-05,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.45705,
+    "gated_robust_rate": 0.050783333333333326,
+    "gated_wall_clock_sec": 0.8425085548427887,
+    "uniform_wall_clock_sec": 0.8730912308383267
+  },
+  {
+    "N": 60,
+    "M": 2,
+    "atc_lms_msd": 0.004081543732173798,
+    "uniform_dmcc_msd": 1.949345694830205e-05,
+    "gated_dmcc_msd": 1.9510725820714252e-05,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.4586100000000002,
+    "gated_robust_rate": 0.050956666666666664,
+    "gated_wall_clock_sec": 1.805223510239739,
+    "uniform_wall_clock_sec": 1.867762104992289
+  },
+  {
+    "N": 80,
+    "M": 2,
+    "atc_lms_msd": 0.003911173717647466,
+    "uniform_dmcc_msd": 1.813013651595702e-05,
+    "gated_dmcc_msd": 1.81467832822336e-05,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.4606987500000002,
+    "gated_robust_rate": 0.05118874999999999,
+    "gated_wall_clock_sec": 2.2104986943653784,
+    "uniform_wall_clock_sec": 2.284096485824557
+  },
+  {
+    "N": 100,
+    "M": 2,
+    "atc_lms_msd": 0.0031132574931111955,
+    "uniform_dmcc_msd": 1.5047285313462465e-05,
+    "gated_dmcc_msd": 1.5062571936783607e-05,
+    "uniform_cost": 10.0,
+    "gated_cost": 1.456381,
+    "gated_robust_rate": 0.050709000000000004,
+    "gated_wall_clock_sec": 2.7530524653266184,
+    "uniform_wall_clock_sec": 2.8490551395807415
+  }
+]
