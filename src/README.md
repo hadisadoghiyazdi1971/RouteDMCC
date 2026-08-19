@@ -2,7 +2,7 @@
 
 Place the **exact original experiment program** here as:
 
-`dlms_experiment3_GLM2_3.py`
+`routeDMCC.py`
 
 The authors' archive contains a file with this name implementing the reported diffusion-adaptive-filtering experiments, multiplicative context gate, robust baselines, non-stationary schedule, parameter sweeps, and figure generation.
 
