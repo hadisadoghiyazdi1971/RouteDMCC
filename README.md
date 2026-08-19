@@ -32,7 +32,7 @@ This repository is organized so that an editor or reviewer can move directly fro
 | Paper-to-artifact map | Included |
 | Integrity/hash verification | Included |
 | Human-readable summary export | Included |
-| Executable research simulator | **Add the original `dlms_experiment3_GLM2_3.py` to `src/` before archival release** |
+| Executable research simulator | **Add the original `routeDMCC.py` to `src/` before archival release** |
 | Frozen runtime versions | **To be recorded from the original execution environment** |
 
 The executable experiment file was identified in the authors' research archive, but it was not embedded in the submission/result ZIP used to assemble this GitHub package. It is intentionally **not reimplemented here**, because a rewritten implementation could silently change the experiments. The public archival release should contain the exact original experiment file.
@@ -67,13 +67,13 @@ No external benchmark dataset is required for the reported experiments. Observat
 
 ## Reproduction
 
-The current package supports **artifact verification** immediately. Full simulation reruns require placing the exact original experiment program in `src/dlms_experiment3_GLM2_3.py`.
+The current package supports **artifact verification** immediately. Full simulation reruns require placing the exact original experiment program in `src/routeDMCC.py`.
 
 After the source file is present:
 
 ```bash
 python -m pip install -r environment/requirements-minimal.txt
-python src/dlms_experiment3_GLM2_3.py
+python src/routeDMCC.py
 ```
 
 The original program writes its outputs to `code_results/`. Keep those regenerated outputs separate from `results/reference/`; the latter is the frozen comparison target.
